@@ -60,7 +60,7 @@ export { fixtures }
 
 ## API
 
-### Fixture.get('filename.json') => Object
+### get('filename.json') => Object
 
 Returns an Object parsed from a file called "filename.json" in your fixture folder
 
@@ -68,7 +68,7 @@ Returns an Object parsed from a file called "filename.json" in your fixture fold
 var users = fixtures.get('users.json');
 ```
 
-### Fixture.getFirst('filename.json') => Object
+### getFirst('filename.json') => Object
 
 If the same fixture above is an array, returns the first item in this array.
 
