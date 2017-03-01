@@ -20,7 +20,7 @@
             throw new Error('Missing fixture: ' + name);
         }
 
-        return angular.copy(fixtures._cache[name]);
+        return JSON.parse(JSON.stringify(fixtures._cache[name]));
     }
 
     /**
