@@ -1,6 +1,6 @@
 {
   "name": "karma-fixture-loader",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Loads your JSON fixtures and provides a simple way to access them in your unit tests.",
   "main": "karma-fixture-loader.js",
   "scripts": {
